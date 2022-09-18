@@ -19,5 +19,3 @@ _
 _
 ![Screenshot_1663499589](https://user-images.githubusercontent.com/98638038/190901845-e5bcb71e-f324-4111-9490-b07391957e82.png)
 
-_
-![Screenshot_1663499594](https://user-images.githubusercontent.com/98638038/190901848-6d63b3d7-2589-4cb8-a3d9-0c983ba516fe.png)
