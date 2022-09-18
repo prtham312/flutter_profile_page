@@ -62,7 +62,7 @@ class Page3 extends StatelessWidget {
                                 textAlign: TextAlign.start,
                                 style: TextStyle(
                                   fontSize: 40,
-                                  fontFamily: 'Raleway',
+                                  fontFamily: 'Ubuntu',
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -80,7 +80,7 @@ class Page3 extends StatelessWidget {
                               const Text(
                                 'Your daily plan',
                                 style: TextStyle(
-                                  fontFamily: 'Raleway',
+                                  fontFamily: 'Ubuntu',
                                   fontSize: 25,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -91,7 +91,7 @@ class Page3 extends StatelessWidget {
                                 child: const Text(
                                   '70%',
                                   style: TextStyle(
-                                    fontFamily: 'Raleway',
+                                    fontFamily: 'Ubuntu',
                                     fontWeight: FontWeight.bold,
                                     fontSize: 23,
                                   ),
@@ -125,7 +125,7 @@ class Page3 extends StatelessWidget {
                                 child: const Text(
                                   '4 of 6 completed',
                                   style: TextStyle(
-                                    fontFamily: 'Raleway',
+                                    fontFamily: 'Ubuntu',
                                     color: Colors.black54,
                                     fontSize: 20,
                                   ),
@@ -151,7 +151,7 @@ class Page3 extends StatelessWidget {
                                   const Text(
                                     '17',
                                     style: TextStyle(
-                                      fontFamily: 'Raleway',
+                                      fontFamily: 'Ubuntu',
                                       fontWeight: FontWeight.bold,
                                       fontSize: 40,
                                     ),
@@ -163,7 +163,7 @@ class Page3 extends StatelessWidget {
                                       Text(
                                         'tasks finished',
                                         style: TextStyle(
-                                          fontFamily: 'Raleway',
+                                          fontFamily: 'Ubuntu',
                                           fontSize: 17,
                                         ),
                                       )
@@ -186,7 +186,7 @@ class Page3 extends StatelessWidget {
                                   Text(
                                     '3,2',
                                     style: TextStyle(
-                                      fontFamily: 'Raleway',
+                                      fontFamily: 'Ubuntu',
                                       fontSize: 40,
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -198,7 +198,7 @@ class Page3 extends StatelessWidget {
                                         'Tracked hours',
                                         style: TextStyle(
                                           fontSize: 17,
-                                          fontFamily: 'Raleway',
+                                          fontFamily: 'Ubuntu',
                                         ),
                                       )
                                     ],
@@ -216,7 +216,7 @@ class Page3 extends StatelessWidget {
                               Text(
                                 'Overview',
                                 style: TextStyle(
-                                  fontFamily: 'Raleway',
+                                  fontFamily: 'Ubuntu',
                                   fontSize: 25,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -230,7 +230,7 @@ class Page3 extends StatelessWidget {
                             'Messaging ID framework development for the \nmarketing branch and the publicity bureau and implemented a draft on the framework.',
                             textAlign: TextAlign.start,
                             style: TextStyle(
-                              fontFamily: 'Raleway',
+                              fontFamily: 'Ubuntu',
                               color: Colors.black54,
                               fontSize: 18,
                             ),
@@ -245,7 +245,7 @@ class Page3 extends StatelessWidget {
                                 'Members connected',
                                 textAlign: TextAlign.start,
                                 style: TextStyle(
-                                  fontFamily: 'Raleway',
+                                  fontFamily: 'Ubuntu',
                                   fontSize: 25,
                                   fontWeight: FontWeight.bold,
                                 ),

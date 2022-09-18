@@ -28,7 +28,7 @@ class Page1 extends StatelessWidget {
                   padding: const EdgeInsets.fromLTRB(3, 0, 15.0, 0.0),
                   child: Text('Dayzer',
                       style: TextStyle(
-                        fontFamily: 'Raleway',
+                        fontFamily: 'Ubuntu',
                         fontSize: 32.0,
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
@@ -43,9 +43,9 @@ class Page1 extends StatelessWidget {
                 'To simplify \n the way you \n work',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontFamily: 'Raleway',
+                  fontFamily: 'Ubuntu',
                   fontSize: 40,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w800,
                 ),
               ),
             ),
@@ -63,8 +63,9 @@ class Page1 extends StatelessWidget {
               'Controlling deliveries in \n reliable and no-hassle way.',
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontFamily: 'Raleway',
+                fontFamily: 'Ubuntu',
                 fontSize: 21.0,
+                color: Colors.black,
               ),
             ),
             SizedBox(
@@ -84,7 +85,7 @@ class Page1 extends StatelessWidget {
                   child: const Text(
                     'Get free trial',
                     style: TextStyle(
-                      fontFamily: 'Raleway',
+                      fontFamily: 'Ubuntu',
                       color: Colors.white,
                       fontSize: 20,
                       fontWeight: FontWeight.bold,

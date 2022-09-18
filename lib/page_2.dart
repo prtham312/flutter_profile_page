@@ -70,7 +70,7 @@ class Page2 extends StatelessWidget {
                           Text(
                             "Task for today: ",
                             style: TextStyle(
-                              fontFamily: 'Raleway',
+                              fontFamily: 'Ubuntu',
                               fontSize: 35.0,
                               fontWeight: FontWeight.bold,
                             ),
@@ -92,7 +92,7 @@ class Page2 extends StatelessWidget {
                           Text(
                             " 5 available",
                             style: TextStyle(
-                              fontFamily: 'Raleway',
+                              fontFamily: 'Ubuntu',
                               fontSize: 21.0,
                               fontWeight: FontWeight.w600,
                             ),
@@ -130,7 +130,7 @@ class Page2 extends StatelessWidget {
                             children: [
                               Text("Last Connections",
                                   style: TextStyle(
-                                    fontFamily: 'Raleway',
+                                    fontFamily: 'Ubuntu',
                                     fontSize: 20.0,
                                     fontWeight: FontWeight.w500,
                                   )),
@@ -238,7 +238,7 @@ class Page2 extends StatelessWidget {
                                     Text(
                                       "Numero 10",
                                       style: TextStyle(
-                                        fontFamily: 'Raleway',
+                                        fontFamily: 'Ubuntu',
                                         color: Colors.black54,
                                         fontSize: 15.0,
                                         fontWeight: FontWeight.w400,
@@ -292,7 +292,7 @@ class Page2 extends StatelessWidget {
                                   Text(
                                     "Deadline is today",
                                     style: TextStyle(
-                                      fontFamily: 'Raleway',
+                                      fontFamily: 'Ubuntu',
                                       fontSize: 20.0,
                                       fontWeight: FontWeight.w400,
                                     ),
@@ -328,7 +328,7 @@ class Page2 extends StatelessWidget {
                                     Text(
                                       "Grace Aroma",
                                       style: TextStyle(
-                                        fontFamily: 'Raleway',
+                                        fontFamily: 'Ubuntu',
                                         color: Colors.black54,
                                         fontSize: 15.0,
                                         fontWeight: FontWeight.w400,
@@ -358,7 +358,7 @@ class Page2 extends StatelessWidget {
                                     Text(
                                       "New capmain review",
                                       style: TextStyle(
-                                        fontFamily: 'Raleway',
+                                        fontFamily: 'Ubuntu',
                                         fontSize: 20.0,
                                         fontWeight: FontWeight.w500,
                                       ),

@@ -87,7 +87,10 @@ flutter:
         - asset: fonts/Oswald-VariableFont_wght.ttf
     - family: Raleway
       fonts:
-        - asset: fonts/Raleway-Italic-VariableFont_wght.ttf
+        - asset: fonts/Raleway-VariableFont_wght.ttf
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/Ubuntu-Regular.ttf
         
   #
   # For details regarding fonts from package dependencies,
