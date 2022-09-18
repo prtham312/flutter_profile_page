@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Dayzer',
-      home: Page3(),
+      home: Page2(),
     );
   }
 }

@@ -22,7 +22,7 @@ class Page3 extends StatelessWidget {
                 Icon(Icons.cases_rounded, size: 30),
               ],
             ),
-            backgroundColor: const Color(0xFFA5D6A7),
+            backgroundColor: const Color(0xFF81C784),
             body: SingleChildScrollView(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -62,6 +62,7 @@ class Page3 extends StatelessWidget {
                                 textAlign: TextAlign.start,
                                 style: TextStyle(
                                   fontSize: 40,
+                                  fontFamily: 'Raleway',
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -79,6 +80,7 @@ class Page3 extends StatelessWidget {
                               const Text(
                                 'Your daily plan',
                                 style: TextStyle(
+                                  fontFamily: 'Raleway',
                                   fontSize: 25,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -89,6 +91,7 @@ class Page3 extends StatelessWidget {
                                 child: const Text(
                                   '70%',
                                   style: TextStyle(
+                                    fontFamily: 'Raleway',
                                     fontWeight: FontWeight.bold,
                                     fontSize: 23,
                                   ),
@@ -99,12 +102,16 @@ class Page3 extends StatelessWidget {
                         ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: LinearPercentIndicator(
-                            width: 100.0,
-                            lineHeight: 8.0,
-                            percent: 0.2,
-                            backgroundColor: Colors.grey,
-                            progressColor: Colors.red,
+                          child: Container(
+                            decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(15)),
+                            child: LinearPercentIndicator(
+                              lineHeight: 8.0,
+                              percent: 0.7,
+                              backgroundColor: Colors.purple[50],
+                              progressColor: Colors.black,
+                            ),
                           ),
                         ),
                         Padding(
@@ -118,6 +125,8 @@ class Page3 extends StatelessWidget {
                                 child: const Text(
                                   '4 of 6 completed',
                                   style: TextStyle(
+                                    fontFamily: 'Raleway',
+                                    color: Colors.black54,
                                     fontSize: 20,
                                   ),
                                 ),
@@ -133,15 +142,16 @@ class Page3 extends StatelessWidget {
                                   color: Colors.yellow[200],
                                   borderRadius: BorderRadius.circular(15)),
                               height: 100,
-                              width: 150,
+                              width: 170,
                               margin: const EdgeInsets.all(15),
-                              padding: const EdgeInsets.all(5),
+                              padding: const EdgeInsets.all(10),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   const Text(
                                     '17',
                                     style: TextStyle(
+                                      fontFamily: 'Raleway',
                                       fontWeight: FontWeight.bold,
                                       fontSize: 40,
                                     ),
@@ -153,7 +163,8 @@ class Page3 extends StatelessWidget {
                                       Text(
                                         'tasks finished',
                                         style: TextStyle(
-                                          fontSize: 15,
+                                          fontFamily: 'Raleway',
+                                          fontSize: 17,
                                         ),
                                       )
                                     ],
@@ -166,15 +177,16 @@ class Page3 extends StatelessWidget {
                                   color: Colors.yellow[200],
                                   borderRadius: BorderRadius.circular(15)),
                               height: 100,
-                              width: 150,
+                              width: 170,
                               margin: const EdgeInsets.all(15),
-                              padding: const EdgeInsets.all(5),
+                              padding: const EdgeInsets.all(10),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
                                     '3,2',
                                     style: TextStyle(
+                                      fontFamily: 'Raleway',
                                       fontSize: 40,
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -182,7 +194,13 @@ class Page3 extends StatelessWidget {
                                   Row(
                                     children: [
                                       Icon(Icons.access_time),
-                                      Text('Tracked hours')
+                                      Text(
+                                        'Tracked hours',
+                                        style: TextStyle(
+                                          fontSize: 17,
+                                          fontFamily: 'Raleway',
+                                        ),
+                                      )
                                     ],
                                   )
                                 ],
@@ -198,6 +216,7 @@ class Page3 extends StatelessWidget {
                               Text(
                                 'Overview',
                                 style: TextStyle(
+                                  fontFamily: 'Raleway',
                                   fontSize: 25,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -211,6 +230,8 @@ class Page3 extends StatelessWidget {
                             'Messaging ID framework development for the \nmarketing branch and the publicity bureau and implemented a draft on the framework.',
                             textAlign: TextAlign.start,
                             style: TextStyle(
+                              fontFamily: 'Raleway',
+                              color: Colors.black54,
                               fontSize: 18,
                             ),
                           ),
@@ -224,6 +245,7 @@ class Page3 extends StatelessWidget {
                                 'Members connected',
                                 textAlign: TextAlign.start,
                                 style: TextStyle(
+                                  fontFamily: 'Raleway',
                                   fontSize: 25,
                                   fontWeight: FontWeight.bold,
                                 ),

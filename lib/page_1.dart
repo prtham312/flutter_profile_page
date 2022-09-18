@@ -10,7 +10,7 @@ class Page1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFA5D6A7),
+      backgroundColor: Color(0xFF81C784),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -25,11 +25,11 @@ class Page1 extends StatelessWidget {
                   child: Image.asset('images/dayzerlogo.png'),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(0, 0, 15.0, 0.0),
+                  padding: const EdgeInsets.fromLTRB(3, 0, 15.0, 0.0),
                   child: Text('Dayzer',
                       style: TextStyle(
-                        fontFamily: 'Oswald',
-                        fontSize: 30.0,
+                        fontFamily: 'Raleway',
+                        fontSize: 32.0,
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
                       )),
@@ -37,13 +37,16 @@ class Page1 extends StatelessWidget {
               ],
             ),
             SizedBox(width: 20.0, height: 0),
-            Text(
-              'To simplify \n the way you \n work',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontFamily: 'Oswald',
-                fontSize: 40,
-                fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                'To simplify \n the way you \n work',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontFamily: 'Raleway',
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
             SizedBox(
@@ -60,32 +63,40 @@ class Page1 extends StatelessWidget {
               'Controlling deliveries in \n reliable and no-hassle way.',
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontSize: 21.0,
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 24,
             ),
-            Container(
-              height: 55,
-              width: 20,
-              child: ElevatedButton(
-                onPressed: () {
-                  log("Get free trial", name: "Get free trial");
-                },
-                child: const Text(
-                  'Get free trial',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+              child: Container(
+                decoration:
+                    BoxDecoration(borderRadius: BorderRadius.circular(65)),
+                height: 55,
+                width: 20,
+                child: ElevatedButton(
+                  onPressed: () {
+                    log("Get free trial", name: "Get free trial");
+                  },
+                  child: const Text(
+                    'Get free trial',
+                    style: TextStyle(
+                      fontFamily: 'Raleway',
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-                style: ElevatedButton.styleFrom(
+                  style: ElevatedButton.styleFrom(
                     primary: const Color(0XFF000000),
                     fixedSize: const Size.fromWidth(20),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30))),
+                    // shape: RoundedRectangleBorder(
+                    //     borderRadius: BorderRadius.circular(30))
+                  ),
+                ),
               ),
             )
           ],

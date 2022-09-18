@@ -36,7 +36,7 @@ class Page2 extends StatelessWidget {
                         children: [
                           CircleAvatar(
                             radius: 30.0,
-                            backgroundImage: AssetImage('images/emp1.png'),
+                            backgroundImage: AssetImage('images/emp3.png'),
                           ),
                           SizedBox(
                             width: 10.0,
@@ -70,8 +70,9 @@ class Page2 extends StatelessWidget {
                           Text(
                             "Task for today: ",
                             style: TextStyle(
+                              fontFamily: 'Raleway',
                               fontSize: 35.0,
-                              fontWeight: FontWeight.w600,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                         ],
@@ -91,8 +92,9 @@ class Page2 extends StatelessWidget {
                           Text(
                             " 5 available",
                             style: TextStyle(
-                              fontSize: 20.0,
-                              fontWeight: FontWeight.w400,
+                              fontFamily: 'Raleway',
+                              fontSize: 21.0,
+                              fontWeight: FontWeight.w600,
                             ),
                           )
                         ],
@@ -128,6 +130,7 @@ class Page2 extends StatelessWidget {
                             children: [
                               Text("Last Connections",
                                   style: TextStyle(
+                                    fontFamily: 'Raleway',
                                     fontSize: 20.0,
                                     fontWeight: FontWeight.w500,
                                   )),
@@ -149,28 +152,30 @@ class Page2 extends StatelessWidget {
                             children: [
                               CircleAvatar(
                                 radius: 30.0,
-                                backgroundImage:
-                                    AssetImage('assets/images/IMG_7475.jpg'),
+                                backgroundImage: AssetImage('images/emp1.png'),
                               ),
                               CircleAvatar(
                                 radius: 30.0,
-                                backgroundImage:
-                                    AssetImage('assets/images/IMG_7475.jpg'),
+                                backgroundImage: AssetImage('images/emp2.png'),
                               ),
                               CircleAvatar(
                                 radius: 30.0,
-                                backgroundImage:
-                                    AssetImage('assets/images/IMG_7475.jpg'),
+                                backgroundImage: AssetImage('images/emp3.png'),
                               ),
                               CircleAvatar(
                                 radius: 30.0,
-                                backgroundImage:
-                                    AssetImage('assets/images/IMG_7475.jpg'),
+                                backgroundImage: AssetImage('images/emp4.png'),
                               ),
                               CircleAvatar(
                                 radius: 30.0,
-                                backgroundImage:
-                                    AssetImage('assets/images/IMG_7475.jpg'),
+                                backgroundColor: Colors.white60,
+                                child: Text(
+                                  '+5',
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    color: Colors.black,
+                                  ),
+                                ),
                               ),
                             ],
                           ),
@@ -224,47 +229,54 @@ class Page2 extends StatelessWidget {
                           padding: const EdgeInsets.all(8.0),
                           child: Column(
                             children: [
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(
-                                    "Number 10",
-                                    style: TextStyle(
-                                      color: Colors.black54,
-                                      fontSize: 15.0,
-                                      fontWeight: FontWeight.w400,
+                              Padding(
+                                padding: const EdgeInsets.fromLTRB(8, 10, 8, 5),
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "Numero 10",
+                                      style: TextStyle(
+                                        fontFamily: 'Raleway',
+                                        color: Colors.black54,
+                                        fontSize: 15.0,
+                                        fontWeight: FontWeight.w400,
+                                      ),
                                     ),
-                                  ),
-                                  SizedBox(
-                                    height: 10,
-                                  ),
-                                  Text(
-                                    "4h",
-                                    style: TextStyle(
-                                      color: Colors.black54,
-                                      fontSize: 15.0,
-                                      fontWeight: FontWeight.w400,
+                                    SizedBox(
+                                      height: 10,
                                     ),
-                                  )
-                                ],
+                                    Text(
+                                      "4h",
+                                      style: TextStyle(
+                                        color: Colors.black54,
+                                        fontSize: 15.0,
+                                        fontWeight: FontWeight.w400,
+                                      ),
+                                    )
+                                  ],
+                                ),
                               ),
                               //row2
 
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    "Blog and social posts",
-                                    style: TextStyle(
-                                      fontSize: 20.0,
-                                      fontWeight: FontWeight.w500,
+                              Padding(
+                                padding: const EdgeInsets.fromLTRB(8, 5, 8, 0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Blog and social posts",
+                                      style: TextStyle(
+                                        fontSize: 20.0,
+                                        fontWeight: FontWeight.w500,
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                               SizedBox(
-                                height: 30,
+                                height: 15,
                               ),
                               //row3
 
@@ -280,6 +292,7 @@ class Page2 extends StatelessWidget {
                                   Text(
                                     "Deadline is today",
                                     style: TextStyle(
+                                      fontFamily: 'Raleway',
                                       fontSize: 20.0,
                                       fontWeight: FontWeight.w400,
                                     ),
@@ -294,7 +307,7 @@ class Page2 extends StatelessWidget {
 
                     //container
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(25, 5, 25, 25),
+                      padding: const EdgeInsets.fromLTRB(25, 0, 25, 25),
                       child: Container(
                         decoration: BoxDecoration(
                             border: Border.all(
@@ -306,44 +319,52 @@ class Page2 extends StatelessWidget {
                           padding: const EdgeInsets.all(8.0),
                           child: Column(
                             children: [
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(
-                                    "Grace Aroma",
-                                    style: TextStyle(
-                                      color: Colors.black54,
-                                      fontSize: 15.0,
-                                      fontWeight: FontWeight.w400,
+                              Padding(
+                                padding: const EdgeInsets.fromLTRB(8, 10, 8, 0),
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "Grace Aroma",
+                                      style: TextStyle(
+                                        fontFamily: 'Raleway',
+                                        color: Colors.black54,
+                                        fontSize: 15.0,
+                                        fontWeight: FontWeight.w400,
+                                      ),
                                     ),
-                                  ),
-                                  SizedBox(
-                                    height: 10,
-                                  ),
-                                  Text(
-                                    "7d",
-                                    style: TextStyle(
-                                      color: Colors.black54,
-                                      fontSize: 15.0,
-                                      fontWeight: FontWeight.w400,
+                                    SizedBox(
+                                      height: 10,
                                     ),
-                                  )
-                                ],
+                                    Text(
+                                      "7d",
+                                      style: TextStyle(
+                                        color: Colors.black54,
+                                        fontSize: 15.0,
+                                        fontWeight: FontWeight.w400,
+                                      ),
+                                    )
+                                  ],
+                                ),
                               ),
                               //row2
 
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    "New capmain review",
-                                    style: TextStyle(
-                                      fontSize: 20.0,
-                                      fontWeight: FontWeight.w500,
+                              Padding(
+                                padding: const EdgeInsets.fromLTRB(8, 5, 8, 0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "New capmain review",
+                                      style: TextStyle(
+                                        fontFamily: 'Raleway',
+                                        fontSize: 20.0,
+                                        fontWeight: FontWeight.w500,
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                               SizedBox(
                                 height: 30,
